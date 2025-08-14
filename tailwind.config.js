@@ -1,8 +1,9 @@
-import React from "react";
-import Homepage from "./Homepage";
-
-function App() {
-  return <Homepage />;
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
-
-export default App;
